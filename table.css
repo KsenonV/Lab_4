@@ -1,0 +1,26 @@
+body {
+    background: #f1ee1a;
+}
+
+.header {
+    text-align: right;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:first-child {
+    background:grey;
+}
+
+tr:nth-child(even) {
+    background-color: #ffa600;
+}
+
